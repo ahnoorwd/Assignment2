@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    width: 80%;
+    height: auto;
+    border: 2px solid red;
+    margin: 0 auto;
+    background:black;
+}
+.dancing{
+    font-family: "Dancing Script", cursive;
+}
+/* here is my common and reset code stars here */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu-common{
+    color: rgb(255, 255, 255);
+
+   font-size: 1.3rem;
+   font-weight: 400;
+   }
+.a-common-color{
+ color:rgb(230, 83, 60);
+}
+.a-common-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    color: rgb(255, 255, 255);
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 600;
+}
+.a-common-heading{
+
+}
+.a-common-pera{
+    color: rgba(255, 255, 255, 0.5);
+    
+    font-size: 16px;
+    font-weight: 400;
+}
+.flex{
+    display: flex;
+}
+.ac{
+    align-items: center;
+}
+/* here is my common and reset code ends here */
+/* nav style is start from here */
+
+   .nav-bar{
+   max-width: 1060px;
+    height: auto;
+    border: 2px solid green;
+    margin: 0 auto;
+    margin-top: 57px;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+   }
+  
+   .nav-menu a{
+    margin-right: 47px;
+    text-decoration: none;
+    color: white;
+    
+   }
+   .fitness-h2{
+    font-size: 2rem;
+    font-weight: 800;
+   }
+   
+   .nav-sb{
+   color: rgb(255, 255, 255);
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 600;
+   border-radius: 46px;
+   background: rgb(230, 83, 60);
+   width: 92px;
+   height: 38px;
+   padding: 8px 20px 8px 20px;
+   }
+   .nav-bannar{
+    width: 1060px;;
+    height: auto;
+    border: 2px solid blue;
+    margin: 4rem auto 0 auto; 
+   }
+  .banner{
+    color: white;
+    position: relative;
+  }
+  .bold{
+    color: rgb(255, 255, 255);
+
+    font-size: 78px;
+    font-weight: 900;
+    width: 520px;
+    height: 282px;
+  }
+  .ex-paragrapg{
+    width: 520px;
+  }
+.banner-right{
+     margin-left: 150px;
+}
+.download-btn{
+    width: 224px;
+    height: 54px;
+    
+    border: 1px solid rgb(255, 255, 255);
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background-color: black;
+    color: white;
+    margin-left: 1.8rem;
+}
+.card-1{
+    width: 206px;
+    height: 96px;
+    
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.youtube-icon {
+    color: red;
+    margin-right: 8px;
+}
+.card-2{
+    width: 193px;
+    height: 98px;
+    
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    position: absolute;
+    top: 100px;
+    left: 890px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.dumbbell-icon {
+    color: #FFD700; 
+    margin-right: 8px; 
+}
+
+
+/* nav style is start ends here */
