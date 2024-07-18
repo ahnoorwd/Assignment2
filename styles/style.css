@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 body{
     font-family: "Inter", sans-serif;
-    width: 80%;
+    width: 100%;
     height: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     background:black;
 }
@@ -58,7 +58,7 @@ body{
    .nav-bar{
     max-width: 90%;
     height: auto;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin: 0 auto;
     margin-top: 57px;
     color: white;
@@ -96,7 +96,7 @@ body{
    .nav-bannar{
     max-width: 90%;
     height: auto;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 4rem auto 0 auto; 
    }
   .banner{
