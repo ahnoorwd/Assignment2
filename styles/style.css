@@ -56,7 +56,7 @@ body{
 /* nav style is start from here */
 
    .nav-bar{
-   max-width: 1060px;
+    max-width: 90%;
     height: auto;
     border: 2px solid green;
     margin: 0 auto;
@@ -88,8 +88,13 @@ body{
    height: 38px;
    padding: 8px 20px 8px 20px;
    }
+   .hamburg-menu{
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+   }
    .nav-bannar{
-    width: 1060px;;
+    max-width: 90%;
     height: auto;
     border: 2px solid blue;
     margin: 4rem auto 0 auto; 
@@ -165,6 +170,80 @@ body{
     color: #FFD700; 
     margin-right: 8px; 
 }
-
-
 /* nav style is start ends here */
+
+
+
+/* here is my mediaquery for 576px's device */
+    @media screen and (max-width:576px){
+        /* navbar query */
+        .nav-menu{
+            display: none;
+        }
+        .nav-bar{
+            justify-content: space-between;
+            width: 100%;
+        }
+        .hamburg-menu{
+            display: block;
+        }
+
+        /* banner responsive here */
+        .banner{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .bold {
+            font-size: 36px;
+            width: 100%;
+            height: auto;
+        }
+    
+        .ex-paragrapg {
+            width: 100%;
+        }
+    
+        .banner-left {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+         .button-container{
+            display: flex;
+            gap: 10px;
+         }
+        .download-btn {
+            margin-left:0;
+            margin-top: 0px;
+        }
+    
+        .banner-right {
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .banner-right img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .card-1 {
+            top: auto;
+            left: auto;
+            bottom: 30%;
+            right: 50%;
+            width: 155.74px;
+            height: 72.58px;
+            margin-top: 20px;
+        }
+    
+        .card-2 {
+            top: auto;
+            left: auto;
+            bottom: 50%;
+            right: 10%;
+            width: 145.91px;
+            height: 74.09px;
+            margin-top: 20px;
+        }
+    }
+    
