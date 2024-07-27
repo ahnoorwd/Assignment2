@@ -10,6 +10,7 @@ body{
 }
 .dancing{
     font-family: "Dancing Script", cursive;
+    font-size: 6rem;
 }
 /* here is my common and reset code stars here */
 *{
@@ -44,7 +45,7 @@ body{
 }
 .a-common-pera{
     color: rgba(255, 255, 255, 0.5);
-    
+    /* margin-top: 3rem; */
     font-size: 16px;
     font-weight: 400;
 }
@@ -59,7 +60,9 @@ body{
 }
 /* here is my common and reset code ends here */
 /* nav style is start from here */
-
+header{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);
+}
    .nav-bar{
     max-width: 90%;
     height: auto;
@@ -77,6 +80,17 @@ body{
     color: white;
     
    }
+   .nav-menu a:not(.nav-sb) {
+    
+    background-color: #007BFF; 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    transition: background-color 0.3s ease; 
+}
+  .nav-menu a:not(.nav-sb):hover {
+    background-color: gray; 
+}
+
    .fitness-h2{
     font-size: 2rem;
     font-weight: 800;
@@ -118,9 +132,17 @@ body{
   }
   .ex-paragrapg{
     width: 520px;
+    margin-top: 2rem;
   }
 .banner-right{
      margin-left: 250px;
+     /* background-image: url(../images/banner.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat; */
+}
+.tutorial{
+  margin-top: 1rem;
 }
 .download-btn{
     width: 224px;
@@ -174,6 +196,47 @@ body{
 .dumbbell-icon {
     color: #FFD700; 
     margin-right: 8px; 
+    margin-top: 1rem;
+}
+.card-1, .card-2 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-1:hover, .card-2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.card-1 h2, .card-2 h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #FFF;
+}
+
+.card-1 p, .card-2 p {
+  font-size: 14px;
+  color: #FFF;
+}
+
+.card-1 {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 15px;
+}
+
+.card-2 {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 15px;
+}
+.card-1::before, .card-2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3));
+  border-radius: 12px;
+  z-index: -1;
 }
 /* nav style is start ends here */
    /* habits section stars here */
@@ -221,7 +284,441 @@ body{
     font-weight: 600;
    }
    /* habits section ends here */
+   /* run and milstone section stars here */
+   .run-miles{
+    width: 90%;
+    height: 371px;
+    border-radius: 18px;
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+    /* border:2px solid red; */
+    margin-top: 5rem;
+    
+   }
+   .run-miles-left{
+    width: 443px;
+    height: 290px;
+    margin-left: 4.5rem;
+    margin-top: 3rem;
+    /* border: 2px solid green; */
+   }
+   .run-miles-right{
+    width: 450px;
+    height: 312px;
+    border-radius: 18px;
+    margin-left: 13rem;
+    margin-top: 2.5rem;
+    background-image: url(../images/run.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+   .run-miles-right img{
+       width: 100%;
+   }
+   .run-miles-left h2,p{
+    margin-bottom:1rem
+   }
+   .run-miles-left img{
+    width: 100%;
+    
+   }
+   
+   /* run and milstone section ends here */
+   /* meeting section stras here */
+   .meeting-container{
+    width: 90%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 5rem;
+    
+  }
+  .meeting-header{
+    width: 671px;
+    height: 120px;
+    /* width: 60%;
+    height: auto; */
+    /* border: 2px solid green;  */
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  .tainer-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 4rem;
+    gap: 1rem;
+    
+  }
+  .tainer1{
+   width: 100%;
+   height: 350px;
+   background-image: url(../images/trainer1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:68% 32%;
+   border-radius: 1rem;
+  }
+  .tainer2{
+   width: 100%;
+   height: 350px;
+   background-image: url(../images/trainer2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:68% 32%;
+   border-radius: 1rem;
+  }
+  .tainer3{
+   width: 100%;
+   height: 350px;
+   background-image: url(../images/trainer3.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:68% 32%;
+   border-radius: 1rem;
+  }
+  .tainer4{
+   width: 100%;
+   height: 350px;
+   background-image: url(../images/trainer4.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:68% 32%;
+   border-radius: 1rem;
+  }
+  .tainer5{
+   width: 100%;
+   height: 350px;
+   background-image: url(../images/trainer5.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:68% 32%;
+   border-radius: 1rem;
+  }
+  .tainer6{
+   width: 100%;
+   height: 350px;
+   background-image: url(../images/trainer6.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:68% 32%;
+   border-radius: 1rem;
+  }
+  .tainer-name{
+    position: absolute;
+    margin-top: 240px;
+    color: white;
+    margin-left: 20px;
+  }
+ .meet-heading-color{
+  color: white;
+ }
+ /* meeting section ends here */
 
+/* acheivement section is stars here */
+.achievement-container{
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 4rem;
+  background: rgb(34, 34, 34);
+  padding: 2rem;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #333, #222);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.achievement-content{
+  width: 90%;
+  height: auto;
+  /* border: 2px solid green; */
+  margin: 1rem auto 0 auto;
+  align-items: center;
+  padding: 1rem;
+}
+.common-wh{
+  width: 22.5%;
+  height: auto;
+  /* border: 2px solid blue; */
+  margin: 1rem;
+  margin-top: 2rem;
+ background: #444;
+ border-radius: 20px;
+ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.common-wh:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.award-materials i, 
+.award-materials img {
+  margin-bottom: 0.5rem;
+}
+.award-materials p {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+.award-materials small {
+  display: block;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.award-materials img {
+  width: 22.5%;
+  height: auto;
+}
+.award-materials{
+  color: white;
+  text-align: center;
+  padding: 20px;
+ 
+}
+.O-A-V-N{
+  color: orange;
+  
+  
+}
+.icon{
+  color: red;
+  /* border: 2px solid darkgoldenrod;
+  border-radius: 10%;
+  padding: 10px; */
+}
+
+/* acheivement section is stars here */
+
+
+ /* Bmi section stars here */
+.bmi-heading{
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+ 
+}
+.bmi-text-part{
+  width: 671px;
+  height: 120px;
+  margin: 5rem auto 0 auto;  
+}
+.bmi-text-part h2,p{
+ margin-bottom: 14px;
+}
+
+
+.bmi-container{
+  width: 100%;
+  height: auto;
+  /* border: 2px solid red; */
+  /* background-color: black; */
+ }
+ .bmi-content{
+  max-width: 90%;
+  height: auto;
+  /* border: 2px solid aqua; */
+  margin: 0 auto;
+  margin-top: 2rem;
+  background: rgb(34, 34, 34);
+  display: flex;
+  padding: 20px;
+  gap: 3.12rem;
+ }
+ .bmi-table{
+  width: 45%;
+  height: auto;
+  /* border: 2px solid green; */
+ }
+ table{
+  border-collapse: collapse;
+
+ }
+ td,th{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 200px;
+  padding: 12px;
+ }
+ th{
+  text-align: left;
+ }
+ 
+ .bmi-form{
+  width: 60%;
+  height: auto;
+  /* border: 2px solid khaki; */
+ }
+ .bmi-table-materials{
+  color: white;
+  padding: 2rem;
+ }
+ .calc-bmi{
+  color: white; 
+  padding: 2rem;
+ }
+ .button-bmi-cacl{
+   width: 300px;
+   height: 40px;
+   margin-left: 1rem;
+   border-radius: 0.5rem;
+   text-align: left;
+   padding-left: 10px; 
+   
+ }
+ .factor-button{
+  width:620px ;
+  
+ }
+ .common-color-bmi{
+ color: rgba(255, 255, 255, 0.5);
+ }
+ .form input{
+  background:rgba(255, 255, 255, 0.5);
+ }
+ .form select{
+  background:rgba(255, 255, 255, 0.5);
+ 
+  
+ }
+ .a-common-btn{
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  padding: 16px 40px 16px 40px;
+  color: rgb(255, 255, 255);
+  
+  font-size:1.2rem;
+  font-weight: 600;
+  /* margin-left: 1.5rem;  */
+}
+.bmi-bottom-button{
+  margin-left: 1.5rem;
+}
+.form{
+  margin-left: 0.7rem;
+  
+}
+table{
+  margin-top: 3rem;
+}
+
+
+
+
+
+ /* Bmi section ends here */
+ /* footer section stars from here  */
+ .footer-container{
+    max-width: 100%;
+    height: auto;
+    background: rgb(34, 34, 34);
+    /* border: 2px solid fuchsia; */
+    margin-top: 4rem;
+ }
+ .footer-content{
+    width: 90%;
+    height: auto;
+    /* border: 2px solid darkorange; */
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 1rem;
+    gap: 1rem;
+ }
+ .fitness{
+    width: 45%;
+    height: auto;
+    margin-top: 4rem;
+    /* border: 2px solid khaki; */
+ }
+ .get-started1{
+    width: 25%;
+    height: auto;
+    /* border: 2px solid hotpink; */
+    margin-left: 180px;
+    margin-top: 4rem;
+ }
+ .get-started2{
+    width: 25%;
+    height: auto;
+    /* border: 2px solid lawngreen; */
+    margin-left: 180px;
+    margin-top: 4rem;
+ }
+ .hr{
+  width: 90%;
+  margin: 0 auto; 
+ }
+
+   .copy{
+    margin-top: 36px;
+    position: relative;
+    top: -30px; 
+  } 
+  .red-rose{
+    color: red;
+  }
+   /* footer section ends  here  */
+ /* exceptional part start here */
+ .exceptional-container{
+  width: 90%;
+  height: auto;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top:3rem;
+ }
+ .exceptional-text-part{
+  width: 700px;
+  height: auto;
+  /* border: 2px solid green; */
+  padding: 10px;
+ }
+
+ .image-one{
+  width: 30%;
+  height: auto;
+  /* border: 2px solid blue; */
+ }
+
+ .image-two{
+  width: 40%;
+  height: auto;
+  /* border: 2px solid darkorange; */
+ }
+ .image-three{
+  width: 30%;
+  height: auto;
+  /* border: 2px solid slateblue; */
+ }
+ .image-four{
+  width: 35%;
+  height: auto;
+  /* border: 2px solid lightcoral; */
+ }
+ .image-five{
+  width: 30%;
+  height: auto;
+  /* border: 2px solid khaki; */
+ }
+ .image-six{
+  width: 35%;
+  height: auto;
+  /* border: 2px solid crimson; */
+ }
+ .excep-image-part{
+  /* gap: 4rem; */
+  margin-top: 1rem;
+ }
+ .excep-image-part img{
+  width: 100%;
+  height: 100%;
+ }
+ .excep-image-part2 img{
+  width: 100%;
+  height: 100%;
+ }
+ /* exceptional part ends here */
 
 
 /* here is my mediaquery for 576px's device */
@@ -233,9 +730,11 @@ body{
         .nav-bar{
             justify-content: space-between;
             width: 100%;
+            
         }
         .hamburg-menu{
             display: block;
+            /* margin-right: 0px; */
         }
 
         /* banner responsive here */
@@ -248,7 +747,9 @@ body{
             width: 100%;
             height: auto;
         }
-    
+         .tutorial{
+          margin-top: 0;
+         }
         .ex-paragrapg {
             width: 100%;
         }
@@ -259,9 +760,21 @@ body{
         }
          .button-container{
             display: flex;
-            gap: 10px;
+            gap: 5px;
+         }
+         .a-common-btn{
+          width: 215px;
+          margin-left: 0;
+          margin-right: 0.8rem;
          }
         .download-btn {
+           width: 200px;
+            margin-left:0;
+            margin-top: 0px;
+        }
+        .download-btn {
+           max-width: 200px;
+           height: 54px;
             margin-left:0;
             margin-top: 0px;
         }
@@ -316,5 +829,125 @@ body{
             /* margin-left: 2rem; */
          } 
 
+         /* run and miles section query  */
+         .run-miles{
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+           
+          
+            
+         }
+         .run-miles-left{
+            width: 100%;
+            height: auto;
+            margin-left:0;
+            margin-top: 3rem;
+            text-align: center;
+           
+           }
+           .run-miles-right{
+            width: 350px;
+            height: 300px;
+            border-radius: 18px;
+            margin-left:2.2rem;  
+            margin-bottom: 0.5rem;
+           }
+         
+        /* meet section responsive  */
+        .meeting-header{
+          width: 100%;
+          
+        }
+        .tainer-images{
+          grid-template-columns: repeat(1,1fr);
+        
+      }
+      .hide-image{
+        display: none;
+      }
+        /* exceptional part responsive here */
+          .exceptional-text-part{
+            width: 100%;
+            height: auto;
+          }
+          /* footer responsive here */
+          .footer-content{
+            width: 100%;
+            flex-direction: column;
+            /* text-align: center; */
+            /* justify-content: center;
+            align-items: center; */
+          }
+          .get-started1{
+            width: 100%;
+            height: auto;
+            /* border: 2px solid hotpink; */
+            margin-left: 0;
+         }
+         .get-started2{
+            width: 100%;
+            height: auto;
+            /* border: 2px solid lawngreen; */
+            margin-left: 0px
+         }
+         .reserved{
+         margin-left: 15px;
+         text-align: left;
+         
+         }
+         .hr{
+          width: 90%;
+          margin: 15px; 
+         }
+         /* bmi section responsive here */
+      
+         .bmi-text-part{
+          width: 100%;
+          height:auto;  
+        }
+        .bmi-content{
+          flex-direction: column;
+          width: 100%;
+          text-align: left;
+          
+        }
+        .bmi-form{
+          width: 100%;
+          height: auto;
+          margin-left: -2rem;
+          
+         }
+         .bmi-table{
+          width: 100%;
+          height: auto;
+          margin-left: -2rem;
+          
+         }
+         .factor-button{
+          width:96% ;
+         }
+        .input-container form{
+          display: flex;
+          width: 100%;
+        }
+        .bmi-bottom-button{
+          margin-left: 1.5rem;
+        }
+        /* achivements section is responsive here */
+        
+        .achievement-content {
+          flex-direction: column;
+          align-items: center;
+          
+        }
+        .common-wh {
+          width: 100%;
+          margin: 1rem 0;
+        }
+        .common-wh:nth-child(even) {
+          margin-top: 0;
+        }
+        
     }
     
