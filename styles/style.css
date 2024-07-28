@@ -726,7 +726,48 @@ table{
   height: 100%;
  }
  /* exceptional part ends here */
-
+/* pagination style stars*/
+.pagination {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+ .pagination li{
+   list-style: none;
+   display: inline-block;
+  
+ }
+ .pagination li a{
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  color: black;
+  background-color: white;
+  box-shadow: 1px 1px 1px #ccc;
+ }
+ .pagination li a:hover{
+  background-color: #ccc;
+ }
+ .pagination li:first-child a{
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+ }
+ .pagination li:last-child a{
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+ }
+ .pagination li:last-child a:hover,
+ .pagination li:first-child a:hover{
+  background-color: gray;
+ }
+/* pagination style ends*/
 
 /* here is my mediaquery for 576px's device */
     @media screen and (max-width:576px){
@@ -955,6 +996,10 @@ table{
         .common-wh:nth-child(even) {
           margin-top: 0;
         }
-        
+        /* pagination */
+        .pagination {
+          text-align: left;
+          margin-left: 15px;
+        }
     }
     
