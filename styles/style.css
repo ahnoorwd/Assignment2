@@ -447,15 +447,14 @@ header{
  background: #444;
  border-radius: 20px;
  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .common-wh:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
-.award-materials i, 
-.award-materials img {
+.award-materials i, .award-materials img {
   margin-bottom: 0.5rem;
 }
 .award-materials p {
@@ -674,7 +673,15 @@ table{
   /* border: 2px solid green; */
   padding: 10px;
  }
-
+ .T{
+  color: green;
+ }
+ .A{
+  color: yellow;
+ }
+ .E{
+  color: blue;
+ }
  .image-one{
   width: 30%;
   height: auto;
