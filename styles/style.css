@@ -60,9 +60,9 @@ body{
 }
 /* here is my common and reset code ends here */
 /* nav style is start from here */
-header{
+ /* header{
   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);
-}
+}  */
    .nav-bar{
     max-width: 90%;
     height: auto;
@@ -72,6 +72,7 @@ header{
     color: white;
     justify-content: space-between;
     text-align: center;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%); 
    }
    
    .nav-menu a{
