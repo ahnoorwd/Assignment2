@@ -311,12 +311,15 @@ body{
     margin-left: 13rem;
     margin-top: 2.5rem;
     background-image: url(../images/run.jpg);
-    background-size: cover;
+    background-size: 250%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 66% 33%;  
+     /* object-fit: none; 
+    object-position: 66% 33%;  */
+    
    }
    .run-miles-right img{
-       width: 100%;
+       width: 100%;   
    }
    .run-miles-left h2,p{
     margin-bottom:1rem
