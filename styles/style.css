@@ -60,11 +60,12 @@ body{
 }
 /* here is my common and reset code ends here */
 /* nav style is start from here */
- /* header{
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);
-}  */
+  header{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17,0.2),rgba(119, 119, 119, 0.1) 100%);
+  
+}  
    .nav-bar{
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     /* border: 2px solid green; */
     margin: 0 auto;
@@ -93,7 +94,7 @@ body{
 }
 
    .fitness-h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 800;
    }
    
@@ -118,7 +119,7 @@ body{
     height: auto;
     /* border: 2px solid blue; */
     margin: 4rem auto 0 auto; 
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);  
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);   */
    }
   .banner{
     color: white;
@@ -141,7 +142,7 @@ body{
      /* background-image: url(../images/banner.png);
      background-size: cover;
      background-position: center;
-     background-repeat: no-repeat; */
+     background-repeat: no-repeat;  */
 }
 .tutorial{
   margin-top: 1rem;
@@ -334,7 +335,7 @@ body{
    .meeting-container{
     width: 90%;
     height: auto;
-    /* border: 2px solid red; */
+     /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 5rem;
     
@@ -353,8 +354,8 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-top: 4rem;
-    gap: 1rem;
-    
+    gap: 1.2rem;
+    background: linear-gradient(145deg, #333, #222);
   }
   .tainer1{
    width: 100%;
@@ -364,6 +365,7 @@ body{
    background-size: cover;
    background-position:68% 32%;
    border-radius: 1rem;
+   
   }
   .tainer2{
    width: 100%;
