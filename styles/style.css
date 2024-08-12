@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 body{
     font-family: "Inter", sans-serif;
-   max-width: 90%;
+    /* max-width: 90%; */
     height: auto;
     /* border: 2px solid red; */
     margin: 0 auto;
@@ -78,12 +78,12 @@ body{
               rgba(0, 0, 0, 0) 100%), 
               #000; */
 
-              padding: 10px;
+              padding: 30px;
               
               
 }  
    .nav-bar{
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
      /* border: 2px solid green;  */
     margin: 0 auto;
@@ -140,7 +140,7 @@ body{
     cursor: pointer;
    }
    .nav-bannar{
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     
     /* border: 2px solid blue; */
@@ -315,7 +315,7 @@ body{
    /* habits section ends here */
    /* run and milstone section stars here */
    .run-miles{
-    max-width: 100%;
+    max-width: 90%;
     height: 371px;
     border-radius: 18px;
     margin: 0 auto;
@@ -325,9 +325,9 @@ body{
     
    }
    .run-miles-left{
-    width: 443px;
+    width: 500px;
     height: 290px;
-    margin-left: 4.5rem;
+    margin-left: 5rem;
     margin-top: 3rem;
     /* border: 2px solid green; */
    }
@@ -335,7 +335,7 @@ body{
     width: 550px;
     height: 320px;
     border-radius: 18px;
-    margin-left: 15rem;
+    margin-left: 10rem;
     margin-top: 2rem;
     background-image: url(../images/run.jpg);
     background-size: 250%;
@@ -359,7 +359,7 @@ body{
    /* run and milstone section ends here */
    /* meeting section stras here */
    .meeting-container{
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
      /* border: 2px solid red; */
     margin: 0 auto;
@@ -547,7 +547,7 @@ body{
 }
 
 .prb {
-  width: 100vw; /* Ensures it spans the full viewport width */
+  width: 100%; /* Ensures it spans the full viewport width */
   margin: 0; /* Removes any margin */
   padding: 0; /* Removes any padding */
   position: relative; /* Optional: ensures positioning is relative to its parent */
@@ -986,11 +986,11 @@ table{
             height: auto;
           }
           /* footer responsive here */
-          .footer-container{
+           .footer-container{
            
-            background: rgb(34, 34, 34,0.3);
+            /* background: rgb(34, 34, 34,0.3); */
             
-         }
+         } 
           .footer-content{
             width: 100%;
             flex-direction: column;
@@ -1013,7 +1013,7 @@ table{
          
          }
          .hr{
-          width: 90%;
+          width: 55%;
           margin: 32px; 
          }
          /* bmi section responsive here */
