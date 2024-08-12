@@ -61,6 +61,7 @@ body{
 /* here is my common and reset code ends here */
 /* nav style is start from here */
   header{
+  
   /* background: linear-gradient(180.00deg, rgb(17, 17, 17,0.2),rgba(119, 119, 119, 0.2) 100%); */
   
   /* background: linear-gradient(180deg, rgba(17, 17, 17, 0.2) 0%, rgba(119, 119, 119, 0.1) 70%, rgba(0, 0, 0, 0) 100%), #000; */
@@ -295,7 +296,7 @@ body{
     margin-top: 3.5rem;
     
 }
-  
+
    .habits-image-container img{
     border: 1px solid white;
     border-radius: 50%;
@@ -545,9 +546,16 @@ body{
  margin-bottom: 14px;
 }
 
-
+.prb {
+  width: 100vw; /* Ensures it spans the full viewport width */
+  margin: 0; /* Removes any margin */
+  padding: 0; /* Removes any padding */
+  position: relative; /* Optional: ensures positioning is relative to its parent */
+  left: 0;
+  right: 0;
+}
 .bmi-container{
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
   /* border: 2px solid red; */
   /* background-color: black; */
@@ -651,12 +659,17 @@ table{
  /* Bmi section ends here */
  /* footer section stars from here  */
  .footer-container{
-    width: 100%;
+    /* width: 100%; */
+    /* width: 1440px; */
     height: auto;
     background: rgb(34, 34, 34);
     /* border: 2px solid fuchsia; */
     margin-top: 4rem;
+    
+   
+    /* margin: auto; */
  }
+
  .footer-content{
     max-width: 90%;
     height: auto;
