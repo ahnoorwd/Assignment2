@@ -1134,7 +1134,7 @@ table{
 
 
   /* responsive for 992px  */
-  @media screen and (min-width:992px) {
+  @media screen and (min-width:992px) and (max-width: 1024px) {
 
    
     header{
@@ -1227,8 +1227,8 @@ table{
     .card-1 {
         top: auto;
         left: auto;
-        bottom: 55%;
-        right: 5%;
+        bottom: 53%;
+        right: 8%;
         width: 200px;
         height: 100px;
     }
@@ -1249,13 +1249,16 @@ table{
 
 
      /* habits section stars here */
-  
+     .habits-container{
+      margin-left: 5px;
+      
+     }
    .change-habits{
     width: 690px;
     height: 120px;
     /* border: 2px solid green; */
     margin: 0 auto;
-    margin-left: 180px;
+    margin-left: 190px;
     
    }
 
@@ -1265,7 +1268,9 @@ table{
     width: 100%;
     height: auto;
     margin-top: 3rem;
-    margin-left: 130px;
+    margin-left: 110px;
+    border: 2px solid beige;
+
 }
 
  .run-miles-left {
@@ -1283,7 +1288,8 @@ table{
     margin-right: 20px;
     margin-top: 2rem;
     background-size: cover; /* Adjust the image size */
-    background-position: center; /* Center the background image */
+    background-position: center; 
+    /* Center the background image */
 }
 
 .run-button {
@@ -1301,7 +1307,7 @@ table{
   flex-direction: column;
   width: 100%;
   text-align: left;
-  background: rgb(34, 34, 34,0.5);
+  background: rgb(34, 34, 34,0.3);
   
   
 }
